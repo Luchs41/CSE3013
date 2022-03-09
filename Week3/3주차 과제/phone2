@@ -1,0 +1,15 @@
+if [ $# -eq 0 ]
+then
+	echo "Usage: phone2 searchfor[...searchfor]"
+	echo "(You didn't tell me what you want to search for.)"
+else
+	grep -i -e $1 mydata > .sfile
+	for i in $@
+	do
+		grep -i -e $i .sfile > .tfile
+		cat .tfile > .sfile
+	done
+	awk -f display.awk < .sfile
+	rm .sfile
+	rm .tfile
+fi

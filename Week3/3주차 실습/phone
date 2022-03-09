@@ -1,0 +1,22 @@
+if [ $# -eq 0 ] 
+then
+	echo "Usage: phone searchfor[...searchfor]"
+	echo "(You didn't tell me what you want to search for.)"
+else
+	step=0
+	for i in $@
+	do
+        	if [ $step -eq 0 ]
+		then
+			str=$i
+		else
+			bar="|"
+			str+=$bar
+			str+=$i
+		fi
+		step=1
+	done
+	egrep -i $str mydata > .tfile
+	awk -f display.awk < .tfile
+	rm .tfile
+fi

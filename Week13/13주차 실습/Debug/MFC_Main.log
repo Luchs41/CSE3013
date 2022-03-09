@@ -1,0 +1,138 @@
+﻿cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  Example.cpp
+  StringTokenizer.cpp
+  Math.cpp
+  usercode.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\user code\usercode.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\user code\usercode.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\user code\usercode.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\user code\usercode.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\user code\usercode.cpp(69): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+  Zoom.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+  Scroll.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(75): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(75): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(75): note: 'double round(double)'일 수 있습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(76): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(76): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(76): note: 'double round(double)'일 수 있습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(79): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(79): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(79): note: 'double round(double)'일 수 있습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(80): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(80): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(80): note: 'double round(double)'일 수 있습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(87): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(87): error C2440: '초기화 중': 'double (__cdecl *)(double)'에서 'int'(으)로 변환할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(87): note: 이 변환이 가능한 컨텍스트가 없습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(119): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(134): error C2065: 'round': 선언되지 않은 식별자입니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(134): error C2440: '초기화 중': 'double (__cdecl *)(double)'에서 'int'(으)로 변환할 수 없습니다.
+  c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(134): note: 이 변환이 가능한 컨텍스트가 없습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\ui\scroll.cpp(165): error C2065: 'round': 선언되지 않은 식별자입니다.
+  RubberBand.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MsgView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  DrawFunc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(199): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(200): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(266): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(267): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(288): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(289): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(314): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(315): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(339): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(340): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(391): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(392): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(446): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(447): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(471): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(472): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(496): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(519): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(520): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(564): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(602): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(603): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(628): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(629): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(665): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(702): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(733): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(734): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(736): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(739): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(739): error C2661: 'CPen::CreatePen': 오버로드된 함수에서 2개의 매개 변수를 사용하지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(763): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(764): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(787): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(788): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(816): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(817): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(844): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(845): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(876): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(877): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(906): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(907): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(941): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(942): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(972): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\drawfunc.cpp(973): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+  Clipping.cpp
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\clipping.cpp(179): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\clipping.cpp(183): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\clipping.cpp(187): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\graphics\clipping.cpp(191): error C2264: 'round': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+  MFC_MainView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2556: 'int round(double)': 오버로드된 함수가 'double round(double)'과(와) 반환 형식만 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+c:\users\gs63\desktop\컴실 1\13주차\13주차 실습\util\math.h(33): error C2371: 'round': 재정의. 기본 형식이 다릅니다.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_math.h(533): note: 'round' 선언을 참조하십시오.
+  MFC_MainDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MFC_Main.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MainFrm.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ExternView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ExternDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  코드를 생성하고 있습니다...
